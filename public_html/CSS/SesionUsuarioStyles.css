@@ -1,0 +1,74 @@
+.fitImage{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("../img/icon.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.ContainerPrincipal{
+    width: 95%;
+    height: 95%;
+}
+
+.ContainerSecundario{
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    border: 1px solid #088A85;
+}
+
+.ContainerInformativo{
+    width: 25%;
+    background-color: #088A85;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ContainerContenido{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    color: #088A85;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.BtnInfo{
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+    color: #088A85;
+    border-radius: 20px;
+}
+
+.BtnAction{
+    width: 100%;
+    background-color: #088A85;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.BtnAction:hover{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #088A85;
+    padding: 10px;
+    color: #088A85;
+}
+
+.marginContenido{
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+

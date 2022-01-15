@@ -1,0 +1,185 @@
+.ContainerPerfilPrincipal{
+    width: 100%;
+    height: 550px;
+}
+
+.ContainerPerfilOpciones{
+    width: 20%;
+    background-color: #088A85;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ContainerPerfilContenido{
+    width: 80%;
+    padding:20px;
+}
+
+.division2{
+    border-bottom: 1px solid white;
+}
+
+.BTNPerfilOpcion{
+    width: 100%;
+    background-color: white;
+    color: #088A85;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.BTNPerfilOpcion:Hover{
+    background-color: #A9F5E1 ;
+    color: white;
+}
+
+.complete_width{
+    width: 0px;
+    height: 0px;
+}
+
+.ContainerPerfilInformacion{
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    overflow: hidden;
+    height: fit-content;
+    border: 1px solid #04B486;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+.FontRespuesta{
+    color: #088A85;
+}
+
+.BtnModificarPerfil{
+    width: 100%;
+    height: fit-content;
+    background-color: #088A85;
+    color: white;
+    border: 1px solid #088A85;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.BtnModificarPerfil:hover{
+    background-color: #04B486;
+}
+
+.BtnModificarPerfil:active{
+    background-color: #0B614B;
+}
+
+.CancelBtnPerfil{
+    width: 100%;
+    height: fit-content;
+    background-color: #FA5858;
+    color: white;
+    border: 1px solid #FA5858;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.CancelBtnPerfil:hover{
+    background-color: #F78181;
+}
+
+.CancelBtnPerfil:active{
+    background-color: #8A0808;
+}
+
+.BustLabel{
+    color: #04B486; 
+    font-family: sans-serif; 
+    font-size: medium;
+}
+
+.BustButton{
+    background-color: #04B486; 
+    font-family: sans-serif;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.BustButton:Hover{
+    background-color: #00FFBF; 
+    cursor: pointer;
+}
+
+.ContainerExteriorAsiento{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+.BtnBustLabel{
+    font-weight: bold;
+    font-size: 16px;
+    color: #A9F5D0;
+}
+
+.AsientoContainer{
+    border: 1px solid grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: grey;
+    margin: 10px;
+    padding: 20px;
+    width: 10px;
+    height: 30px;
+}
+
+.AsientoSelected{
+    border: 1px solid grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #D8F6CE;
+    margin: 10px;
+    padding: 20px;
+    width: 10px;
+    height: 30px;
+}
+
+.AsientoBlock{
+    border: 1px solid grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #B40404;
+    margin: 10px;
+    padding: 20px;
+    width: 10px;
+    height: 30px;
+    color: #F78181;
+}
+
+.AsientoBlock:Hover{
+    cursor: not-allowed;
+}
+
+.AsientoContainer:Hover{
+     background-color: #A9F5E1;
+     color: #04B45F;
+     cursor: pointer;
+}
+
+.AsientoContainer:active{
+    background-color: #0B614B;
+}
+
+@media screen and (max-widht: 500px){
+    .complete_width{
+        width: 100%;
+        height: 20%;
+    }
+}
+
